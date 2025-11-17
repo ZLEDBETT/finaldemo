@@ -83,7 +83,9 @@ def git_pull_request(repo_path: str, base: str = "main",
         return f"PR created: {result.stdout}"
     except Exception as e:
         return f"PR Error: {e}"
-    
+# -----------------------------
+# Maven MCP Tools
+# ----------------------------- 
 
 @mcp.tool()
 def run_maven_tests(repo_path: str) -> str:
@@ -98,7 +100,25 @@ def run_maven_tests(repo_path: str) -> str:
         return f"Error running mvn test: {e}"
 
 
-
+@mcp.tool()
+def generate_boundary_tests(repo_path: str, class_name: str, method_name: str, param_type: str) -> str:
+    """Generate boundary value tests for a given Java method."""
+    test_code = f"""
+@Test
+void test_{method_name}_boundaries() {{
+    {class_name} obj = new {class_name}();
+    // Lower bound
+    assertDoesNotThrow(() -> obj.{method_name}({param_type}.MIN_VALUE));
+    // Nominal
+    assertDoesNotThrow(() -> obj.{method_name}(0));
+    // Upper bound
+    assertDoesNotThrow(() -> obj.{method_name}({param_type}.MAX_VALUE));
+}}
+"""
+    test_file = os.path.join(repo_path, "src", "test", "java", f"{class_name}BoundaryTest.java")
+    with open(test_file, "a") as f:
+        f.write(test_code)
+    return f"Boundary test added to {test_file}"
 
 # -----------------------------
 # Calculator Tool (Phase 1)
