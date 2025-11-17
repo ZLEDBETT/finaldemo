@@ -39,7 +39,7 @@
                 <version>0.8.12</version>
                 <configuration>
                     <!-- Skip JaCoCo agent to avoid instrumentation errors on newer JDKs -->
-                    <skip>true</skip>
+                    <skip>false</skip>
                 </configuration>
                 <executions>
                     <execution>
