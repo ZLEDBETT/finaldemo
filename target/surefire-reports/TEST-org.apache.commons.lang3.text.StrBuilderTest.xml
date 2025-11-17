@@ -26,12 +26,12 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
-    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="stderr.encoding" value="cp437"/>
     <property name="os.name" value="Windows 11"/>
     <property name="classworlds.conf" value="C:\Users\zoele\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="stdout.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Users\zoele\Downloads\jdk-25_windows-x64_bin\jdk-25.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\zoele\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\zoele\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\zoele\Downloads\jdk-25_windows-x64_bin\jdk-25.0.1\bin;C:\Users\zoele\Downloads\jdk-25_windows-x64_bin\jdk-25.0.1\bin;C:\Users\zoele\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\zoele\AppData\Local\Python\pythoncore-3.14-64\Scripts;C:\Users\zoele\AppData\Local\Microsoft\WindowsApps;C:\Users\zoele\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2025.2.4\bin;C:\Users\zoele\AppData\Roaming\npm;C:\Users\zoele\AppData\Local\Python\bin;C:\Users\zoele\AppData\Roaming\Python\Scripts;C:\Users\zoele\AppData\Local\Programs\Microsoft VS Code Insiders\bin;c:\Users\zoele\.vscode-insiders\extensions\ms-python.debugpy-2025.16.0-win32-x64\bundled\scripts\noConfigScripts;c:\Users\zoele\.vscode-insiders\extensions\vscjava.vscode-java-debug-0.58.3\bundled\scripts\noConfigScripts;."/>
+    <property name="stdout.encoding" value="cp437"/>
+    <property name="java.library.path" value="C:\Users\zoele\Downloads\jdk-25_windows-x64_bin\jdk-25.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;c:\Users\zoele\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\zoele\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\zoele\Downloads\jdk-25_windows-x64_bin\jdk-25.0.1\bin;C:\Users\zoele\Downloads\jdk-25_windows-x64_bin\jdk-25.0.1\bin;C:\Users\zoele\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Program Files\GitHub CLI\;C:\Users\zoele\OneDrive\Documents\College\SE333Final\.venv/Scripts;c:\Users\zoele\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\zoele\AppData\Roaming\Code - Insiders\User\globalStorage\github.copilot-chat\copilotCli;C:\Program Files\GitHub CLI\;C:\Users\zoele\Downloads\jdk-25_windows-x64_bin\jdk-25.0.1\bin;C:\Users\zoele\Downloads\jdk-25_windows-x64_bin\jdk-25.0.1\bin;C:\Users\zoele\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\Program Files\Oculus\Support\oculus-runtime;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Managem;c:\Users\zoele\.vscode-insiders\extensions\ms-python.debugpy-2025.16.0-win32-x64\bundled\scripts\noConfigScriptsc:\Users\zoele\.vscode-insiders\extensions\vscjava.vscode-java-debug-0.58.3\bundled\scripts\noConfigScripts;."/>
     <property name="maven.conf" value="C:\Users\zoele\Downloads\apache-maven-3.9.11-bin\apache-maven-3.9.11/conf"/>
     <property name="jdk.debug" value="release"/>
     <property name="java.class.version" value="69.0"/>
@@ -89,10 +89,10 @@
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testContains_String" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testEqualsIgnoreCase" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testCapacityAndLength" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testAsReader" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testAsReader" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testToStringBuilder" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testReplaceAll_String_String" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testAsWriter" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testAsWriter" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testLang294" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testLang295" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testReplaceAll_char_char" time="0"/>
@@ -100,14 +100,14 @@
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testDeleteCharAt" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testReplaceFirst_String_String" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testContains_char" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testDeleteIntInt" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testDeleteIntInt" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testReplace_StrMatcher_String_int_int_int_VaryCount" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testReplaceFirst_char_char" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testIndexOf_char" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testReplace_int_int_String" time="0.002"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testReplace_int_int_String" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testToCharArray" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testLastIndexOf_StrMatcher" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testIndexOf_StrMatcher_int" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testIndexOf_StrMatcher_int" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testEnsureCapacity" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testLang412Right" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testDeleteFirst_String" time="0"/>
@@ -124,7 +124,7 @@
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testReplace_StrMatcher_String_int_int_int_VaryMatcher" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testEquals" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testLastIndexOf_char" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testLeftString" time="0.001"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testLeftString" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testIndexOf_String_int" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testContains_StrMatcher" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testLength" time="0"/>
@@ -138,7 +138,7 @@
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testAsBuilder" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testIndexOf_String" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testIndexOf_char_int" time="0"/>
-  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testGetCharsIntIntCharArrayInt" time="0"/>
+  <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testGetCharsIntIntCharArrayInt" time="0.001"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testStartsWith" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testIndexOf_StrMatcher" time="0"/>
   <testcase classname="org.apache.commons.lang3.text.StrBuilderTest" name="testLastIndexOf_StrMatcher_int" time="0"/>

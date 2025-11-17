@@ -239,14 +239,19 @@ public enum JavaVersion {
         } else if ("21".equals(nom)) {
             return JAVA_21;
         } else {
-            // For unknown versions, try to parse as a number and map to closest known version
+            // For unknown versions, do a conservative parse:
+            // - If the version starts with "1." then it is an unknown legacy 1.x (e.g. "1.9") and should
+            //   be treated as unknown (return null). Known legacy 1.x versions were handled above by exact
+            //   string matches ("1.1".."1.8").
+            // - Otherwise try to parse as a numeric major-version (9, 10, 11, ...)
+            if (nom != null && nom.startsWith("1.")) {
+                return null;
+            }
             try {
                 float version = Float.parseFloat(nom);
-                if (version <= 1.1f) {
-                    return JAVA_1_1;
-                } else if (version < 9.0f) {
-                    // Legacy versions 1.2-1.8, map to 1.8
-                    return JAVA_1_8;
+                if (version < 9.0f) {
+                    // Any numeric value under 9 that wasn't an exact legacy match is unknown
+                    return null;
                 } else if (version < 10.0f) {
                     return JAVA_9;
                 } else if (version < 11.0f) {
