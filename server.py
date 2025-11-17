@@ -97,7 +97,36 @@ def run_maven_tests(repo_path: str) -> str:
     except Exception as e:
         return f"Error running mvn test: {e}"
 
+@mcp.tool()
+def generate_boundary_tests(repo_path: str, class_name: str, method_name: str, param_type: str) -> str:
+    """Generate boundary value tests for a given Java method."""
+    test_code = f"""
+@Test
+void test_{method_name}_boundaries() {{
+    {class_name} obj = new {class_name}();
+    // Lower bound
+    assertDoesNotThrow(() -> obj.{method_name}({param_type}.MIN_VALUE));
+    // Nominal
+    assertDoesNotThrow(() -> obj.{method_name}(0));
+    // Upper bound
+    assertDoesNotThrow(() -> obj.{method_name}({param_type}.MAX_VALUE));
+}}
+"""
+    test_file = os.path.join(repo_path, "src", "test", "java", f"{class_name}BoundaryTest.java")
+    with open(test_file, "a") as f:
+        f.write(test_code)
+    return f"Boundary test added to {test_file}"
 
+@mcp.tool()
+def code_review(repo_path: str) -> str:
+    """Run static analysis and return major findings."""
+    result = subprocess.run(
+        ["mvn", "pmd:check"], cwd=repo_path,
+        capture_output=True, text=True
+    )
+    if "BUILD FAILURE" in result.stdout:
+        return f"PMD Violations:\n{result.stdout}"
+    return "No major code smells detected "
 
 
 # -----------------------------
